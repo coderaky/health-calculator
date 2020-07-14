@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+
+import 'icon_content.dart';
+import 'reuse_card.dart';
 
 const activecardcolour = Color(0xFF1D1E33);
 const buttombuttonheight = 80.0;
@@ -24,11 +28,19 @@ class _InputPageState extends State<InputPage> {
                 Expanded(
                   child: reusecard(
                     colour: activecardcolour,
+                    childcard: iconcontent(
+                      icon: FontAwesomeIcons.mars,
+                      name: 'MALE',
+                    ),
                   ),
                 ),
                 Expanded(
                   child: reusecard(
                     colour: activecardcolour,
+                    childcard: iconcontent(
+                      name: 'FEMALE',
+                      icon: FontAwesomeIcons.venus,
+                    ),
                   ),
                 ),
               ],
@@ -62,23 +74,6 @@ class _InputPageState extends State<InputPage> {
             height: buttombuttonheight,
           )
         ],
-      ),
-    );
-  }
-}
-
-// ignore: camel_case_types
-class reusecard extends StatelessWidget {
-  reusecard({@required this.colour});
-  final Color colour;
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      margin: EdgeInsets.all(15),
-      decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(10),
-        color: colour,
       ),
     );
   }
