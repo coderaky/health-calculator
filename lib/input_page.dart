@@ -5,6 +5,7 @@ import 'icon_content.dart';
 import 'reuse_card.dart';
 
 const activecardcolour = Color(0xFF1D1E33);
+const inactivecardcolour = Color(0xFF111328);
 const buttombuttonheight = 80.0;
 const buttombuttoncolour = Color(0xFFEB1555);
 
@@ -18,7 +19,7 @@ class _InputPageState extends State<InputPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('BMI CALCULATOR'),
+        title: Text('HEALTH CALCULATOR'),
       ),
       body: Column(
         children: <Widget>[
