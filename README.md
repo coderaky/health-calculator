@@ -1,9 +1,11 @@
 
 # HEALTH Calculator 💪
 
-I have made a Body Mass Index Calculator inspired by the beautiful designs made by [Ruben Vaalt](https://dribbble.com/shots/4585382-Simple-BMI-Calculator). It will be a multi screen app with simple functionality but full-on custom styling. 
+This application is useful to have a quick peek on your health, it gives an overview of whether you are becoming overweight, underweight, or you are normal.
+It takes the input of your height, weight, and age. This is further used to calculate your BMI (Body Mass Index) which in turn used in calculating your health.
+It will be a multi screen app with simple functionality but full-on custom styling. <br><br>
 
-![Finished App](https://github.com/londonappbrewery/Images/blob/master/bmi-calc-demo.gif)
+![Finished App](https://github.com/ralphcoder/health-calculator/blob/master/covid%20health_compressed.jpg)
 
 ## What I learnt
 
@@ -16,4 +18,7 @@ I have made a Body Mass Index Calculator inspired by the beautiful designs made 
 - How to customise Flutter Widgets to achieve a specific design style.
 - Understand Dart Enums and the Ternary Operator.
 - Learn about composition vs. inheritance and the Flutter way of creating custom UI.
-- Understand the difference between const and final in Dart and when to use each.
+- Understand the difference between const and final in Dart and when to use each.<br><br>
+
+
+<img align="left" width="309" height="550" src="https://github.com/ralphcoder/health-calculator/blob/master/repeater.gif">
